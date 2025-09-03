@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CoffeeShopConsoleAppNet60
 {
-    public class Coffee
+    public class Latte : Coffee
     {
-        public virtual int ReturnPriceOfCoffee()
+        public override int ReturnPriceOfCoffee()
         {
-            return 20;
+            return 40;
         }
     }
 }
