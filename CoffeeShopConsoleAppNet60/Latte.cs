@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShopConsoleAppNet60
 {
-    public class Latte : Coffee
+    public class Latte : Coffee, IMilk
     {
         public override int ReturnPriceOfCoffee()
         {
@@ -15,7 +15,12 @@ namespace CoffeeShopConsoleAppNet60
 
         public override void Strength()
         {
-            Console.WriteLine("The Latte is weak");
+            Console.WriteLine("The Latte is weak.");
+        }
+
+        public void mlMilk()
+        {
+            Console.WriteLine("The Cortado contains 200 ml milk.");
         }
     }
 }

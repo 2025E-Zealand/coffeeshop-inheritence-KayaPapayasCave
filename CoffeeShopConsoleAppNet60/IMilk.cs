@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoffeeShopConsoleAppNet60
 {
-    public class BlackCoffee : Coffee
+    public interface IMilk
     {
-        public override void Strength()
-        {
-            Console.WriteLine("The Black Coffee is strong.");
-        }
+        void mlMilk();
     }
 }
