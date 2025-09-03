@@ -12,5 +12,10 @@ namespace CoffeeShopConsoleAppNet60
         {
             return 25;
         }
+
+        public override void Strength()
+        {
+            Console.WriteLine("The Cortado is medium");
+        }
     }
 }

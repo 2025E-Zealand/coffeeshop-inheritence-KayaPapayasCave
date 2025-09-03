@@ -12,5 +12,10 @@ namespace CoffeeShopConsoleAppNet60
         {
             return 40;
         }
+
+        public override void Strength()
+        {
+            Console.WriteLine("The Latte is weak");
+        }
     }
 }
