@@ -13,6 +13,6 @@ namespace CoffeeShopConsoleAppNet60
             return 20;
         }
 
-        public abstract void Strength();
+        public abstract string Strength();
     }
 }

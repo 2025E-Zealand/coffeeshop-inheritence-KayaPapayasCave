@@ -13,9 +13,9 @@ namespace CoffeeShopConsoleAppNet60
             return 25;
         }
 
-        public override void Strength()
+        public override string Strength()
         {
-            Console.WriteLine("The Cortado is medium.");
+            return "Medium";
         }
 
         public void mlMilk()

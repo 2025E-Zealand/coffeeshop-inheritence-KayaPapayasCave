@@ -13,9 +13,9 @@ namespace CoffeeShopConsoleAppNet60
             return 40;
         }
 
-        public override void Strength()
+        public override string Strength()
         {
-            Console.WriteLine("The Latte is weak.");
+            return "Weak";
         }
 
         public void mlMilk()
