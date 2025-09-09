@@ -11,5 +11,5 @@ Coffees.Add(Coffee3);
 
 foreach (var coffee in Coffees)
 {
-    Console.WriteLine($"The price for a {coffee} is: {coffee.ReturnPriceOfCoffee()} and the strength is: {coffee.Strength()}.");
+    Console.WriteLine($"The price for a {coffee} is {coffee.ReturnPriceOfCoffee()}, the strength is: {coffee.Strength()}, and {coffee.mlMilk()}");
 }

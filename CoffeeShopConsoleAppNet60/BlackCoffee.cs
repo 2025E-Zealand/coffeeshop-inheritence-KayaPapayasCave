@@ -12,5 +12,10 @@ namespace CoffeeShopConsoleAppNet60
         {
             return "Strong";
         }
+
+        public override string mlMilk()
+        {
+            return "The Black Coffee contains 0 ml milk.";
+        }
     }
 }

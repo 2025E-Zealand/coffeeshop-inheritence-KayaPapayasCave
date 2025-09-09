@@ -14,5 +14,7 @@ namespace CoffeeShopConsoleAppNet60
         }
 
         public abstract string Strength();
+
+        public abstract string mlMilk();
     }
 }
